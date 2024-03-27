@@ -53,7 +53,65 @@ header a {
     margin-top: 32px ;
 }
 
-@media (max-width: 900px) {
+footer {
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/rome-2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+footer h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    
+        
+}
+
+footer p {
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 20px;
+   
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3 {
+    padding: 10px;
+}
+
+footer li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul {
+  
+    padding: 0;
+}
+
+footer a {
+    color: white;
+    opacity: 0.7;
+}
+
+section {
+    max-width: 1800px;
+    margin: 0 auto;
+   
+}
+
+.grid {
+display: grid;
+grid-template-columns: 1fr 2fr 2fr;
+
+margin: 20px 90px;
+
+}
+
+@media (max-width: 960px) {
     header {
 padding: 60px 0;
     }
@@ -71,6 +129,5 @@ padding: 60px 0;
     }
 }
 
-footer {
-    text-align: center;
-}
+
+
