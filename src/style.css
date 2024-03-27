@@ -5,7 +5,11 @@
 
 body {
     font-family: "poppins";
-   background-color: black;
+   background-color: #425557;
+}
+
+.text-center {
+    text-align: center;
 }
 
 header  {
@@ -58,7 +62,8 @@ footer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/rome-2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 80px 0;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 footer h3 {
@@ -99,9 +104,16 @@ footer a {
 }
 
 section {
-    max-width: 1800px;
+    max-width: 1200px;
     margin: 0 auto;
    padding: 100px 0;
+}
+
+.secondary-section {
+    background-color: #f8f8f8;
+padding: 100px;
+margin: 0 auto;
+    padding: 100px;
 }
 
 main {
@@ -149,9 +161,62 @@ margin: 20px 90px;
       
 }
 
+.grid-3-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px 90px;
+
+}
+
+.card {
+    background-color: white;
+    margin: 30px 0;
+}
+
+.card h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.card h5 {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #272044;
+    margin: 0;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+ .learn-more {
+    display: block;
+    margin: 0 auto;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    
+    padding: 16px;
+    background-color: #272044;
+    border: none;
+    width: 90%;
+    margin-bottom: 20px;
+    color: #f8f8f8;
+        text-decoration: none;
+}
+
+
+
 .colosseum-img {
-    max-width: 90%;
+    max-width: 100%;
 border-radius: 10px;
+}
+
+.img-caffe {
+    max-width: 100%;
 }
 
 @media (max-width: 960px) {
@@ -188,7 +253,7 @@ padding: 60px 0;
     
     }
 
-    main h2, main h3, main p {
+    main h2, main h3, .main-section-p {
         text-align: center;
     }
 }
