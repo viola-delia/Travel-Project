@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -9,8 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>Welcome to Rome</title>
     <link rel="stylesheet" href="src/style.css" />
+    <title>Welcome to Rome</title>
   </head>
   <body>
     <div class="container">
@@ -20,69 +21,108 @@
         <h2>Capital city of Italy</h2>
         <a href="#more">Learn more</a>
       </header>
-
       <main>
         <section class="grid grid-2-columns">
           <div>
             <img
-              src="../images/colosseum.png"
-              alt="colosseum"
-              class="colosseum-img"
+              src="images/colosseum.png"
+              alt="Colosseum"
+              class="img-responsive"
             />
           </div>
           <div>
-            <h2 id="more">Why Rome?</h2>
-            <h3>Rome, the Eternal city</h3>
-            <p class="main-section-p">
+            <h2>Why Rome?</h2>
+            <h3 id="more">Rome, the Eternal city</h3>
+            <p>
               Rome is the capital city of Italy. Rome's history spans 28
               centuries. While Roman mythology dates the founding of Rome at
               around 753 BC, the site has been inhabited for much longer, making
               it a major human settlement for almost three millennia and one of
               the oldest continuously occupied cities in Europe.
             </p>
-            <p class="main-section-p">
+            <p>
               In 2019, Rome was the 14th most visited city in the world, with
               8.6 million tourists, the third most visited city in the European
               Union, and the most popular tourist destination in Italy.
             </p>
           </div>
         </section>
-
-        <section class="secondary-section">
-          <h2 class="text-center">Cafés</h2>
+        <section class="secondary">
+          <h2 class="text-center">CAFÉS</h2>
           <h3 class="text-center">My favorite cafés in Rome</h3>
+
           <div class="grid grid-3-columns">
             <div class="card">
               <div class="card-header">
-                <img src="../images/caffe-canova.jpeg" class="img-caffe" />
+                <img
+                  src="images/caffe-canova.jpeg"
+                  alt="caffe-canova"
+                  class="img-responsive"
+                />
               </div>
+
               <div class="card-body">
-                <h4>Caffè Canova</h4>
+                <h4>Café Canova</h4>
                 <p>
-                  Canova's workshop has café tables amongst stunning marble
-                  sculptures, and offers cocktails and assorted drinks, as well
-                  as tasty titbits.
+                  Canova has café tables amongst stunning marble sculptures, and
+                  offers cocktails and assorted drinks, as well as tasty
+                  titbits.
                 </p>
                 <h5>Address:</h5>
                 <p>Via del Babuino, 150/a, 00187 Roma RM, Italia</p>
                 <h5>What I like about it</h5>
                 <p>You can sip a coffee while surrounded by stunning art.</p>
+              </div>
+              <div class="card-footer">
                 <a
                   href="https://www.google.com/maps/place/Canova+Tadolini/@41.9078013,12.4795658,15z/data=!4m2!3m1!1s0x0:0xdb71f136299d418a?sa=X&ved=1t:2428&ictx=111"
+                  class="btn"
                   target="_blank"
-                  class="learn-more"
-                  >Learn more</a
                 >
+                  Learn more
+                </a>
               </div>
             </div>
-
             <div class="card">
               <div class="card-header">
                 <img
-                  src="../images/caffe-sant-eustrachio.jpeg"
-                  class="img-caffe"
+                  src="images/caffe-castroni.jpeg"
+                  alt="caffe-castroni"
+                  class="img-responsive"
                 />
               </div>
+
+              <div class="card-body">
+                <h4>Caffé Castroni</h4>
+                <p>
+                  This is where Romans come for specialty foods, from
+                  hard-to-find American and Japanese products to traditional and
+                  small-producer Italian cookies.
+                </p>
+                <h5>Address:</h5>
+                <p>Via Frattina, 79, 00187 Roma RM, Italia</p>
+                <h5>What I like about it</h5>
+                <p>There's much more than espresso.</p>
+              </div>
+              <div class="card-footer">
+                <a
+                  href="https://maps.app.goo.gl/JjWYTiQ1YpVU1aFRA"
+                  class="btn"
+                  target="_blank"
+                >
+                  Learn more
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <img
+                  src="images/caffe-sant-eustrachio.jpeg"
+                  alt=""
+                  class="img-responsive"
+                />
+              </div>
+
               <div class="card-body">
                 <h4>Caffè Sant'Eustachio</h4>
                 <p>
@@ -96,83 +136,77 @@
                   Their "Gran Caffé" is prepared with a special cream and is an
                   absolute must-try.
                 </p>
+              </div>
+              <div class="card-footer">
                 <a
                   href="https://maps.app.goo.gl/LhqR3dcwFFHGQhW4A"
+                  class="btn"
                   target="_blank"
-                  class="learn-more"
-                  >Learn more</a
                 >
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header">
-                <img src="../images/caffe-castroni.jpeg" class="img-caffe" />
-              </div>
-              <div class="card-body">
-                <h4>Caffè Castroni</h4>
-                <p>
-                  This is where Romans come for specialty foods, from
-                  hard-to-find American and Japanese products to traditional and
-                  small-producer Italian cookies.
-                </p>
-                <h5>Address:</h5>
-                <p>Via Frattina, 79, 00187 Roma RM, Italia</p>
-                <h5>What I like about it</h5>
-                <p>There's much more than espresso.</p>
-                <a
-                  href="https://maps.app.goo.gl/JjWYTiQ1YpVU1aFRA"
-                  target="_blank"
-                  class="learn-more"
-                  >Learn more</a
-                >
+                  Learn more
+                </a>
               </div>
             </div>
           </div>
         </section>
       </main>
+      <footer>
+        <section class="grid grid-3-columns-with-first-narrow">
+          <div>
+            <h3>More about Rome</h3>
+
+            <ul>
+              <li>
+                <a
+                  href="https://www.adr.it/web/aeroporti-di-roma-en"
+                  target="_blank"
+                >
+                  Rome Airport website
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.google.com/maps/d/u/0/viewer?mid=1yeHLpFzGR0M8S0yl9uY17Ks6cm4&hl=en&ll=41.893484826528784%2C12.4785805&z=14"
+                  target="_blank"
+                >
+                  Map of Rome
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.atac.roma.it/en/utility/maps"
+                  target="_blank"
+                >
+                  Public transport map
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>About me</h3>
+            <p>
+              Hi! My name is Viola and I'm from Rome. I created this page as
+              part of a project for SheCodes Responsive to develop my coding
+              skills.
+            </p>
+          </div>
+          <div>
+            <h3>About this website</h3>
+            <p>
+              I created this page as part of a project for SheCodes Responsive
+              to develop my coding skills.
+              <br />
+              This project was coded by Viola D'Elia and is
+              <a
+                href="https://github.com/viola-delia/Rome-Travel-Project-2"
+                target="_blank"
+              >
+                open sourced</a
+              >
+            </p>
+          </div>
+        </section>
+      </footer>
     </div>
-    <footer>
-      <section class="grid">
-        <div class="footer-col-1">
-          <h3>More about Rome</h3>
-          <ul>
-            <li>
-              <a
-                href="https://www.adr.it/web/aeroporti-di-roma-en"
-                target="_blank"
-                >Rome Airport website</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.google.com/maps/d/u/0/viewer?mid=1yeHLpFzGR0M8S0yl9uY17Ks6cm4&hl=en"
-                target="_blank"
-                >Map of Rome</a
-              >
-            </li>
-            <li>
-              <a href="https://www.atac.roma.it/en/utility/maps" target="_blank"
-                >Public transport map</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="footer-col-2">
-          <h3>About me</h3>
-          <p>
-            Hi, my name is Viola and I am from Rome. I created this page as part
-            of a project for SheCodes course to develop my coding skills.
-          </p>
-        </div>
-        <div class="footer-col-3">
-          <h3>About this website</h3>
-          <p>
-            This project was coded by Viola D'Elia and is open-sourced on
-            <a href="https://github.com/viola-delia/Travel-Project">GitHub</a>
-          </p>
-        </div>
-      </section>
-    </footer>
   </body>
 </html>
