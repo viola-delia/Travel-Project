@@ -55,6 +55,11 @@ grid-gap: 0;
    
 }
 
+  .instagram-embeds {
+
+      margin-top: 50px;
+  }
+
 .card-footer {
     padding: 0 30px 30px;
 }
@@ -216,6 +221,8 @@ footer a {
     opacity: 0.7;
 }
 
+
+
 @media (max-width: 960px) {
     header {
         padding: 60px 0;
@@ -249,4 +256,7 @@ display: none;
     .embed {
         aspect-ratio: 16/9;
     }
+
+     
 }
+
